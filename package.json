@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vasturiano/globe.gl.git"
+    "url": "git+https://github.com/nekokanbaru/globe.gl.git"
   },
   "keywords": [
     "webgl",
@@ -40,8 +40,7 @@
   "homepage": "https://github.com/vasturiano/globe.gl",
   "scripts": {
     "build": "rimraf dist && rollup -c",
-    "dev": "rollup -w -c rollup.config.dev.js",
-    "prepare": "npm run build"
+    "dev": "rollup -w -c rollup.config.dev.js"
   },
   "files": [
     "dist/**/*",
